@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "870845449897",
+    "project_id": "violence-detection-f1b24",
+    "storage_bucket": "violence-detection-f1b24.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:870845449897:android:6091ce6e06bc20906d4bb8",
+        "android_client_info": {
+          "package_name": "violence.ai"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDM8vSt3jdpAZHYX4QpO0k_UvqjkoSGfrU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

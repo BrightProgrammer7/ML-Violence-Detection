@@ -1,0 +1,1 @@
+src/main/webapp/app/modules/home/LandingHome.tsx

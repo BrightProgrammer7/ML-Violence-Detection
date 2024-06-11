@@ -1,0 +1,21 @@
+{
+  "type": "service_account",
+  "project_id": "violence-detection-f1b24",
+  "private_key_id": "ea064f03dd4d40fc01135dfd7c98d0660f6bec75",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCVEVDF2fcgLeAd\nLLRmIjZGEdHjIbzs2NVuFrxUkqsG/a6PHBGrfnrP1l3RxuRuXrRQdpLXyCYaknd3\n9Td9IzbB0mTqdG93TNlSzkqC5WcuFXaV2C30M2ALnjspZ6sRMywQ92NDVJ01Vu7f\nr6H+dX/gx8r5APq4vLHxm6tyxPlZqk+6Eg1AI8Rl7sDmmr0PeSxdyU5E4aKQXzlR\nNoGe/SWuHU0PQj/aP8/tk05tzLSpVvtCY2GPVTrRXKw+nmAX5mZa9uiT2jSXFtDO\nwpnLi/N/TNO+CaXk3aSj9u9TMaryAXw8Oe2YS8kmMOil2QxIsbVDX89fpRGTMnlk\nHJXrKZxvAgMBAAECggEAAZzXV9yczM9SPl6OcRBrr+RfdeqWhaVu4asDTJLtoLy7\n17aBBm7u2zLBfxR8wijqIHi36/exWdY9zqFrgUIRRJWHG/Y4gnzlWPz8V2At9pSq\n3MIi9SJdJqMGltMVSbFZB7H1c/QFY19WZDsdMIiK4p6mtnzpOXhpIGkDuNEitXKb\nAd84NAk5kwUDhvsitgxD2Zjd4DyG97VLxvvlqkfWPc1EU8ibf+ljDMUb/bTX5cLT\nFrvjk9PbF6c2Knu2mHZQjgGRXI8cDLHJ+ldW8BDrH2P2R9j5nOq0V484CqegIBxz\nWMnIKgetoZPRzc5/zFosX7U4BvBPp1BpMK9QPgNt4QKBgQDH0d/HdsCbLqOvmAWl\nXELpq/cTDP0cL/olgWZdqWgLFFFnRWiC5zNE55J6XsAJwR1SheVzlexLA2aGem5R\nAssV7ZMzOC4rmeFuBv9zpjZj8qugRRo8Z7ikzAA//kONcZ3oo9gDqIhYBtAy1CBe\nZzloEiaKYIscigXRmw15Tauv0QKBgQC++od1WxsWWhrY+0vn+OhOTHZZJmporwNp\npVL5plOPt/FnCLNct4NZf/zxX0RqawibiTpL9I89QE/COH8a7zn/ytzlVbmJPYmi\nSDBz/asREAeAz4AJHya2FvLbbZptCE4bohW+rQWj8P9xtiuki+f4vozF159XBYpa\nHs/zVcHYPwKBgCnKAKzsbveFV4I/nt6oXu4TosZ/LugYOI5jc48fAL1gcG3SnDrU\nM2qzq3SgIDVqB8HcctIrhpFhkq2JKU0T8nkRiHlrxGwl8HlcSUxcdH+OnsoT6Zq8\nbmc4qsy3VlVcb5PZwDFzq6ANPLmEl4hmuiDDuv+xlSZQz0q4zKaT0dYhAoGAeGcu\nm5hyvWbVYlMcigVtQGAIhTApChK8zhBC/c4VBJjtgw4DNsMj9nswl2R+l7EfXh/o\nNxbab71qC4Le77Y/FLtrBNNFA/deHIfytE4LWdiHQniPujB/kXFqb1jscS05QUaw\n+uPOmItKIQC/ByCFgVdxHRJSDOUbUrH2XO2GJrUCgYBYkCMBcL5K0Pm+7LBc11Jk\np08nMyCf9Nu7Lvu6V5jkCQnMRkwCD3kUWoYMRYoqwf1IqeOI6h26IRPKw7LKXFda\n/6pTPPsfpc3d8z5QWk+xICfDjbcJImbyXAyDos8UnEpHDhAwNV7qeHVRMITBPG6d\nuSa5srNEJ0j3kgtYPf0knA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-86oxx@violence-detection-f1b24.iam.gserviceaccount.com",
+  "client_id": "108213921729580436779",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-86oxx%40violence-detection-f1b24.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com",
+  
+  "apiKey": "AIzaSyDkI9NJM9jWVmosvIc_JZa_wRRdq9izBQc",
+  "authDomain": "violence-detection-f1b24.firebaseapp.com",
+  "databaseURL": "https://violence-detection-f1b24-default-rtdb.firebaseio.com",
+  "projectId": "violence-detection-f1b24",
+  "storageBucket": "violence-detection-f1b24.appspot.com",
+  "messagingSenderId": "870845449897",
+  "appId": "1:870845449897:web:780c755f39f1b7186d4bb8"
+}

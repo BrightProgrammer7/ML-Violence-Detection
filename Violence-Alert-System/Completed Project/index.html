@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form id="uploadForm">
+      <input type="file" id="fileInputId" />
+      <button type="submit" id="detectButton">Detect</button>
+    </form>
+    <div id="resultContainer"></div>
+    <script>
+      //   function detectViolence(event) {
+      document
+        .getElementById("uploadForm")
+        .addEventListener("submit", function (event) {
+          event.preventDefault(); // Prevent default form submission
+
+          const fileInput = document.getElementById("fileInputId");
+
+          console.log("File selected.");
+
+          if (fileInput.files.length > 0) {
+            const formData = new FormData();
+            formData.append(
+              "video",
+              fileInput.files[0]
+              // "D:\\code\\VD\\Violence-Alert-System\\Completed Project\\V_19.mp4"
+            );
+            var requestOptions = {
+              method: "POST",
+              body: formData,
+              // headers: { "Content-Type": "multipart/form-data" },
+              redirect: "follow",
+            };
+
+            fetch("http://127.0.0.1:8000/detect_violence", requestOptions)
+              .then((response) => {
+                if (response.ok) {
+                  return response.blob();
+                } else {
+                  throw new Error("Failed to process the image.");
+                }
+              })
+              .then((blob) => {
+                const urlObject = URL.createObjectURL(blob);
+                const img = document.createElement("img");
+                img.src = urlObject;
+                document.getElementById("resultContainer").appendChild(img);
+              })
+              .catch((error) => {
+                console.error("Error processing the image:", error);
+              });
+          } else {
+            console.log("No file selected.");
+          }
+        });
+
+      // };
+
+      // document
+      //   .getElementById("detectButton")
+      //   .addEventListener("click", detectViolence);
+    </script>
+  </body>
+</html>
